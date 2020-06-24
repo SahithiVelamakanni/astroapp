@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AstroApp</title>
+  </head>
+  <body>
+     <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+                <div class="wrapper wrapper--w680">
+                    <div class="card card-1">
+                        <div class="card-heading"></div>
+                        <div class="card-body">
+                        
+                         <form accept-charset="UTF-8" action='/save'data-remote="true" method="post">   
+                        <!-- <form> -->
+                        <h2 >Client Details</h2>             <!--  <div class="ErrorMssge"></div> -->
+    <table >
+        <tr>
+            <td>Name :</td>   
+            <td><div class ="input-group "><input class="input--style-1" type="text" id="name" name="name"/> </div></td>
+        </tr>
+        <br/>
+        <tr>
+            <td>Gender :</td>
+            <td><input  class="input--style-1" type="radio" id="male" name="gender" value="male" />Male
+               <input  class="input--style-1" type="radio" id="female" name="gender" value="female" />Female</td>
+        </tr>
+        <br/>
+        <tr>
+            <td>Date of Birth :</td>
+            <td> <div class ="input-group "><input class="input--style-1" type="date" id="date_of_birth" name="date_of_birth"/></div></td>
+        </tr>
+        <br/>
+        <tr>
+            <td>Time of birth :</td>
+            <td> <div class ="input-group "><input class="input--style-1" type="time" id="time_of_birth" name="time_of_birth" /></div></td>
+        </tr>
+        <br/>
+        <tr>
+           
+            <td>Place of birth :</td>
+            
+            <td><div class ="input-group "><input class="input--style-1" type="text" id="place_of_birth" name="place_of_birth"  /> </div></td>
+           
+        </tr>
+        <br/>
+        <tr>
+            
+            <td>Contact Number:</td>
+           
+            <td> <div class ="input-group "><input class="input--style-1" type="tel" id="contact_number" name="contact_number" /> </div></td>
+           
+        </tr>
+        <br/>
+        <tr>
+           
+            <td>Email Id :</td>
+            
+            <td><div class ="input-group "><input class="input--style-1" type="email" id="email_id" name="email_id" /></div></td>
+            
+        </tr>
+        <br/>
+        <tr>
+        
+            <td>Profession :</td>
+           
+            <td> <div class ="input-group "><input class="input--style-1" type="text" id="profession" name="profession" /> </div></td>
+           
+        </tr>
+        <br/>
+        <tr>
+            <td>Queries :</td>
+            <table>
+                <tr>
+                    <td><input class="input--style-1" type="checkbox" id="queries" name="queries" value = "Education" label = "Education" /> Education</td>
+                    <td><input class="input--style-1" type="checkbox" id="queries" name="queries" value = "Job" label = "Education" /> Job </td>
+                
+                    <td><input class="input--style-1" type="checkbox" id="queries" name="queries" value = "Health" label = "Education" /> Health </td>
+                    <td><input class="input--style-1" type="checkbox" id="queries" name="queries" value = "Children" label = "Education" /> Children </td>
+                </tr>
+                <tr>
+                    <td><input class="input--style-1" type="checkbox" id="queries" name="queries" value = "Foriegn Travel" label = "Education" /> Foriegn Travel</td>
+                    <td><input class="input--style-1" type="checkbox" id="queries" name="queries" value = "Marriage" label = "Education" /> Marriage</td>
+                
+                    <td><input class="input--style-1" type="checkbox" id="queries" name="queries" value = "compatability" label = "Education" /> compatability </td>
+                    <td><input  class="input--style-1" type="checkbox" id="queries" name="queries" value = "Business" label = "Education"  /> Business </td>
+                
+                    <td><input  class="input--style-1" type="checkbox" id="queries" name="queries" value = "Others" label = "Education" /> Others </td>
+                
+                </tr>
+ 
+            </table>
+        </tr>
+        <br/>
+        <tr>
+        <td>Comments :</td>
+       
+        <td> <div class ="input-group "><input class="input--style-1"  type = "text" maxlength = "100" /> </div> </td>
+       
+        </tr>
+        <tr>
+            <td>
+                <input class="btn btn--radius btn--green" type="submit" type = "submit"  />
+            </td>
+            </tr>
+            <br/>
+            <tr>
+            <td>
+               <!--  <input class="btn btn--radius btn--green" type="reset" type = "reset" action =  /> -->
+            </td>
+        </tr>
+        
+    </table>
+</form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
+
